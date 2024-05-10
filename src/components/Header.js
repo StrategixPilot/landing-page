@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <div className="navbar">
-        <div className="logo">StrategixPilot</div>
+        <div className="logo">AnalytixPilot</div>
         <nav>
           <ul className="nav-links">
             <li><a href="#home">Home</a></li>
@@ -20,7 +20,7 @@ function Header() {
       <div className="hero">
         <div className="hero-text">
           <h1>Turn Your Data Into Action With AI-Driven Insights</h1>
-          <p>StrategixPilot empowers your startup to leverage Google Analytics data like never before.</p>
+          <p>AnalytixPilot empowers your startup to leverage Google Analytics data like never before.</p>
           <div className="button-container">
             <button className="cta-primary">Get Started For Free</button>
             <button className="cta-secondary">Learn More</button>

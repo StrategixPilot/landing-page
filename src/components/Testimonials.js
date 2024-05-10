@@ -7,7 +7,7 @@ const Testimonials = () => {
       <h2 className="section-title">What Our Users Say</h2>
       <div className="testimonials-container">
         <blockquote className="testimonial">
-          <p>"Using StrategixPilot has revolutionized how we approach our marketing strategy. The insights are not just data-driven but truly actionable!"</p>
+          <p>"Using AnalytixPilot has revolutionized how we approach our marketing strategy. The insights are not just data-driven but truly actionable!"</p>
           <cite>- Jane Doe, Marketing Director</cite>
         </blockquote>
         <blockquote className="testimonial">
