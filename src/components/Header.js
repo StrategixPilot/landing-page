@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Header.css';
-import heroImage from '../assets/hero-image.png';
+// import heroImage from '../assets/hero-image.png';
 
 function Header() {
   return (
