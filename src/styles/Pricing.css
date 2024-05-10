@@ -1,0 +1,61 @@
+.pricing-section {
+    padding: 50px 20px;
+    background-color: transparent; /* To keep the global gradient */
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    color: #ff2079; /* Neon pink */
+    margin-bottom: 30px;
+  }
+  
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .pricing-card {
+    background-color: #19072a; /* Dark purple background */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+  }
+  
+  .pricing-card h3 {
+    color: #00dffc; /* Neon blue */
+    margin-bottom: 10px;
+  }
+  
+  .pricing-card .price {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .cta-primary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff2079; /* Neon pink */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

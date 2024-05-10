@@ -1,0 +1,53 @@
+/* Features Section Style Adjustments */
+.features-section {
+    background-color: transparent; /* Removes any background from the feature section */
+    padding: 40px 0; /* Increases padding around the section for better spacing */
+    text-align: center; /* Ensures text alignment is consistent */
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates four columns, one for each feature */
+    gap: 20px; /* Adjusts space between each feature item */
+    max-width: 1200px; /* Sets a maximum width for the grid */
+    margin: 0 auto; /* Centers the grid horizontally */
+  }
+  
+  .feature-item {
+    background: none; /* Ensures no background for each item */
+    text-align: center; /* Centers the text and images within each item */
+    padding: 20px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-5px); /* Lifts the feature item slightly on hover */
+    cursor: pointer;
+  }
+  
+  .feature-item img {
+    width: 130px; /* Adjusts the size of the icons */
+    height: auto; /* Keeps the aspect ratio of the icons */
+    margin-bottom: 15px; /* Space between the icon and the text */
+  }
+  
+  .feature-item h3 {
+    margin-top: 0;
+    font-size: 1.25rem; /* Adjusts title size */
+  }
+  
+  .feature-item p {
+    font-size: 1rem; /* Adjusts paragraph text size */
+  }
+  
+  @media (max-width: 768px) {
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr); /* Stacks the features into two columns on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .features-grid {
+      grid-template-columns: 1fr; /* Stacks the features vertically on very small screens */
+    }
+  }

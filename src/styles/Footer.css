@@ -1,0 +1,30 @@
+.footer {
+    padding: 20px;
+    background-color: #0a0f1b; /* Dark blue */
+    color: white;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .social-media a {
+    color: #00dffc; /* Neon blue for icons */
+    margin: 0 10px;
+    font-size: 24px; /* Adjust size as needed */
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #ff2079; /* Neon pink on hover */
+  }
+  

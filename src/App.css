@@ -1,38 +1,45 @@
+/* .App {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  font-family: 'Orbitron', sans-serif; /* A futuristic font that fits our theme */
+  line-height: 1.6;
+  color: #fff; /* White text color for better contrast against dark backgrounds */
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #120318, #009efd); /* Background gradient */
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px; /* Adjust base font size if necessary */
+  font-family: 'Open Sans', sans-serif; /* Change to 'Open Sans' for the second pair */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, h2, h3, .special-text {
+  font-family: 'Exo', sans-serif; /* Change to 'Exo' for the second pair */
+  color: #00dffc; /* Example color: neon blue */
 }
+/* Additional global styles can be placed here */
+
